@@ -1,0 +1,74 @@
+.App-logo {
+	height: 80px;
+}
+
+.App {
+	&-header {
+		background-color: #2a2c26;
+		height: 180px;
+		padding: 20px;
+		color: white;
+		text-align: center;
+
+		&-title {
+			box-pack: center;
+			justify-content: center;
+			font-weight: normal;
+		}
+
+		&-subtitle {
+			font-weight: 100;
+		}
+	}
+
+	&-description {
+		padding: 30px;
+		text-align: center;
+
+		.links {
+			text-align: center;
+			margin: 40px;
+			a:link, a:visited {
+			    // background-color: #f44336;
+			    color: white;
+			    padding: 14px 25px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			}
+
+			.npm {
+				float: left;
+
+				a:link, a:visited {
+				    background-color: #f44336;
+				}
+				a:hover, a:active {
+				    background-color: red;
+				}
+			}
+
+			.github {
+				float: right;
+				a:link, a:visited {
+				    background-color: #555555;
+				}
+				a:hover, a:active {
+				    background-color: grey;
+				}
+			}
+
+			.readme {
+				text-align: left;
+				margin:0 auto !important;
+   			display:inline-block;
+				a:link, a:visited {
+				    background-color: #4CAF50;
+				}
+				a:hover, a:active {
+				    background-color: green;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+body {
+  margin-left: 530px;
+  margin-top: 200px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: #181818;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  line-height: 3;
+}
+
+input {
+  border-radius: 15px;
+  background-size: 15%;
+}
+
+button {
+  background-color: rgb(30, 215, 96);
+  border: 1px solid #1ed760;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+}
